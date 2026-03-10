@@ -21,6 +21,12 @@ git lfs install
 git lfs pull
 ```
 
+or for Linux https://github.com/git-lfs/git-lfs/blob/main/INSTALLING.md
+
+apt/deb repos: ```curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash```
+
+yum/rpm repos: ```curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.rpm.sh | sudo bash```
+
 ### 2. Create uv virtual environment
 
 ```bash
